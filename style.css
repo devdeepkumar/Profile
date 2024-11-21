@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: #e4f9f4;
 }
 
 html {
@@ -20,23 +20,26 @@ html {
 }
 
 
-.section.problem{
-    background: #F4F4F4;
-}
+
 
 .main .hero-logo a img {
-    width: 170px;
+    width: 250px;
     padding-top: 50px;
 }
 
 .main {
-    background-image: url(image/hero-bg\ \(1\).png);
+    background-image: url(image/profile-bg.jpg);
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
+
+ .hero-logo{
+         margin-left: 5%;
+    }
+    
 
 .hero-text {
     position: absolute;
@@ -88,7 +91,7 @@ html {
 }
 
 .hero-icon .icon {
-    background-color: #00B3FF;
+    background-color: #00b4ff;
     padding: 10px;
     border-radius: 100%;
     height: 120px;
@@ -99,7 +102,7 @@ html {
 }
 
 .hero-icon .icon a i {
-    color: #fff;
+    color: #003da6;
     font-size: 65px;
 }
 
@@ -110,9 +113,7 @@ html {
     align-items:center;
 }
 
-.one p{
-    color: #003DA6;
-}
+
 
 @media (max-width:992px) {
 
@@ -160,20 +161,20 @@ About Section
 ============================ */
 
 .row.about{
-    background: #F4F4F4;
+    /* background: #F4F4F4; */
     border-radius: 5px;
 }
 .about {
-    border: 3px solid #003DA6;
+    border: 5px solid #003DA6;
     padding: 20px;
     margin-top: 40px;
 }
 
 
 .about-left h2 {
-    font-size: 35px;
+    font-size: 30px;
     text-transform: uppercase;
-    color: #00B3FF;
+    color: #003da6;
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -181,12 +182,14 @@ About Section
 .about-left p {
     max-width: 500px;
     font-size: 18px;
+    color: #000;
+    font-weight: 500;
 }
 
 .about-right h2 {
-    font-size: 35px;
+    font-size: 30px;
     text-transform: uppercase;
-    color: #00B3FF;
+    color: #003da6;
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -196,6 +199,7 @@ About Section
     text-transform: uppercase;
     font-size: 18px;
     font-weight: bold;
+    color: #000;
 }
 
 .about-right .two p a {
@@ -213,6 +217,8 @@ About Section
 .about-right .two p {
     margin-bottom: 10px;
     font-size: 18px;
+    font-weight: 500;
+    color: #000;
 }
 .about-right .two p:hover{
     /* cursor: pointer; */
@@ -265,7 +271,9 @@ About Section
         margin: auto;
         padding: 20px;
     }
-    
+    .hero-text img{
+        margin-top: 80px;
+    }
 }
 
 
@@ -276,8 +284,8 @@ About Section
 skill Section 
 ============================ */
 .skill-text h2 {
-    font-size: 45px;
-    color: #00B3FF;
+    font-size: 30px;
+    color: #003da6;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 40px;
@@ -298,13 +306,14 @@ skill Section
     font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 10px;
+    font-weight: 500;
 }
 
 .skill .bar {
     /* max-width: 80%; */
     width: 100%;
     height: 15px;
-    border: 2px solid #58c5ae;
+    border: 2px solid #003da6;
     position: relative;
     margin-bottom: 15px;
 }
@@ -315,7 +324,7 @@ skill Section
     left: 0;
     width: 90%;
     height: 12px;
-    background-color: #58c5ae;
+    background-color: #003da6;
 }
 
 
@@ -331,16 +340,16 @@ Clint Work Section
     text-align: center;
     color: #003DA6;
     text-transform: uppercase;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 40px;
 }
 
 .clint-work-card {
-    border: 2px solid #0d6efd;
+    /* border: 2px solid #0d6efd; */
     padding: 15px;
     text-align: center;
-    background-color: white;
+    /* background-color: white; */
     margin-top: 20px;
     border-radius: 4px;
 }
@@ -354,14 +363,12 @@ Clint Work Section
 Clint Section 
 ============================ */
 
-.section.client{
-    background: #F4F4F4;
-}
+
 .clint-heading h2 {
     text-align: center;
-    color: #00B3FF;
+    color: #003da6;
     text-transform: uppercase;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -382,23 +389,33 @@ Clint Section
 }
 
 .clint-one h3 {
-    padding: 15px 0px;
-    font-size:25px;
+    font-weight: 600;
+    padding: 35px;
+    font-size:40px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .clint-two {
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    height: 100%;
+
 }
 
 .clint-two h3 {
     font-size: 30px;
-    color: #00B3FF;
+    color: #003da6;
 }
 
 .clint-two p {
     /* max-width: 650px; */
-    font-size: 18px;
-    color: #525151;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 0;
+    font-weight: 600;
 }
 
 /* ==================
@@ -406,9 +423,9 @@ Eduction Section
 ============================ */
 .edcution-heading h2 {
     text-align: center;
-    color: #00B3FF;
+    color: #003da6;
     text-transform: uppercase;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: bold;
 }
 .sections{
@@ -443,7 +460,7 @@ Eduction Section
 
 .eduction h3 {
     font-size: 30px;
-    color: #00B3FF;
+    color: #003da6;
 }
 
 .eduction .top {
@@ -461,7 +478,7 @@ Eduction Section
 Footer Section 
 ============================ */
 .footer-text {
-    background-color: #F4F4F4;
+    background-color: #afc4e3;
     text-align: center;
     padding: 40px 0;
     color: #003DA6;
@@ -470,6 +487,7 @@ Footer Section
 .footer-text h2 {
     font-size: 35px;
     margin-bottom: 0;
+    font-weight: 700;
 }
 
 .footer-text p {
@@ -586,9 +604,11 @@ footer p {
     .hero-icon {
         transform: translate(-50%, -392%);
     }
+   
     .main .hero-logo a img {
         width: 130px;
         padding-top: 41px;
+       
     }
     .section {
         padding: 65px 0;
@@ -691,9 +711,7 @@ footer p {
         transform: translate(-50%, -50%);
     }
 
-    .main .hero-logo a img {
-        padding-left: 20px;
-    }
+    
 
     .hero-text p {
         font-size: 22px;
@@ -721,8 +739,9 @@ footer p {
 @media (max-width:400px) {
     
 .main .hero-logo a img{
-        width: 110px;
-        padding-top: 35px;
+        width: 150px;
+        padding-top: 25px;
+      
     }
 .hero-text img {
     width: 65% !important;
