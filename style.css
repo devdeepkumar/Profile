@@ -1089,6 +1089,12 @@ footer p{
     }
 }
 
+.pricing-grid.doctor .price {
+    font-size: 24px;
+    color: #091342;
+    font-weight: bold;
+}
+
 .pricing-grid .plan:hover {
      border: 3px solid #3498db;
     transform: scale(1.05);
